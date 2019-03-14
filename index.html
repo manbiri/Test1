@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mathima.html</title>
+    <script src="js/jquery.js"></script>
+
+</head>
+<body>
+<a href="blogType.html">Go To Blog</a>
+<hr>
+<script>
+    $(document).ready(function () {
+
+        $("#btn1").click(function () {
+            //$("p").hide();
+            $("#test1").toggle();
+        });
+
+        $("#btn2").click(function () {
+            //$("p").hide();
+            $("#test").toggle();
+        });
+
+
+    });
+</script>
+
+<button id="btn1">Click Me</button>
+
+<!-- headings -->
+<h1>Heading One
+</h1>
+<h2>
+    Heading Two</h2>
+<p>Lorem ipsum dolor sit amet, consectetur <em>adipisicing elit</em>. A amet commodi cupiditate
+    eligendi et explicabo ipsa numquam soluta.
+
+</p>
+<p id="test1" class="">Lorem ipsum dolor sit amet, consectetur <strong>adipisicing elit.</strong> Accusamus eius,
+    eligendi et natus officiis sit.
+    Architecto asperiores assumenda dicta, eaque earum eius eligendi fugiat nesciunt officiis rerum saepe sed sint
+    tempore
+    tenetur veniam? Alias animi at beatae commodi consequuntur culpa distinctio dolor ea earum
+    enim exercitationem fuga itaque <a href="http://google.com" target="_blank">laudantium minima mollitia,</a> nostrum
+    omnis provident, quia, repellat rerum
+    soluta suscipit totam voluptatum. Assumenda cum error iusto obcaecati ullam. Adipisci, corporis eum exercitationem
+    libero modi nobis officia quibusdam quos similique totam ut voluptatum. Amet aperiam architecto autem, culpa
+    cupiditate et,
+    eveniet ipsa minus nemo pariatur qui quo, rem sit temporibus voluptatem voluptatibus?</p>
+
+<!--Lists -->
+<script>
+    $("#btn2").click(function () {
+        //$("p").hide();
+        $("#test").toggle();
+    });
+</script>
+<button id="btn2">Click Me 2</button>
+<ul>
+    <li>Item1</li>
+    <li>Item2</li>
+    <li>Item3</li>
+    <li>Item4</li>
+</ul>
+<ol>
+    <li>Item1</li>
+    <li>Item2</li>
+    <li>Item3</li>
+    <li>Item4</li>
+
+    <!--Tables -->
+    <table id="test" class="">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>age</th>
+        </tr>
+
+        </thead>
+        <tbody>
+
+        <tr>
+            <td>
+                <div id="line1">Manolis Tzingo</div>
+            </td>
+            <td>biri@gmail.com</td>
+            <td>33</td>
+        </tr>
+        <tr>
+            <td>George Salas</td>
+            <td>syncho@hotmail.com</td>
+            <td>38</td>
+        </tr>
+        <tr>
+            <td>Jane Francis</td>
+            <td>tryuyuaf62@gmail.com</td>
+            <td>27</td>
+        </tr>
+
+        </tbody>
+    </table>
+    <br>
+    <hr>
+    <!--Forms -->
+    <form action="process.php" method="POST">
+        <div>
+            <label>First Name </label>
+            <input type="text" name="firstName"
+                   placeholder="Enter First Name"</div>
+        <div>
+            <br>
+            <label>Last Name </label>
+            <input type="text" name="lastName"
+                   placeholder="Enter Last Name"
+        </div>
+        <br>
+        <label>Email </label>
+        <input type="email" name="email"
+               placeholder="Enter Email address" </div>
+        <br>
+
+
+        <label>Message </label>
+          <textarea name="message">
+          </textarea>
+        <div>
+
+            <label>Gender </label>
+            <select name="gender">
+                <option value="male">Male
+                <option value="female">Female
+                <option value="other">Other
+                </option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label>Age: </label>
+            <input type="number" name="age"
+                   value="30"
+        </div>
+        <br>
+        <div>
+            <label>Birthday </label>
+            <input type="date" name="birthday"
+            >
+        </div>
+        <br>
+        <input type="submit" name="submit"
+               value="Submit" />
+    </form>
+
+    <!--Images -->
+    <img>
+</body>
+</html>
+
+
